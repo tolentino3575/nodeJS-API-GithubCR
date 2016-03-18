@@ -6,7 +6,7 @@ exports.getRepos = function(userName){
     for(var i = 0; i < response.length; i++) {
       var name = response[i].name;
       var desc = response[i].description;
-      $('#repoInfo').append("<li>" + "Name: " + name + " with the description: " + desc + " has been found under user: " + userName + "</li>");
+      $('#repoInfo').append("<li>" + "Name: " + name + "</li>" + "<li>" + "Description: " + desc + "</li>" + "<li>" + "Found under user: " + userName + "</li>");
     };
   }).fail(function(error){
     console.log(error.responseJSON.message);
