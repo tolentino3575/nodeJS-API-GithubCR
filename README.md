@@ -17,12 +17,12 @@ If the user enters a username that doesn't exist (for example if they mashed a b
 * Git clone this repository
 
 * From terminal enter the following commands:
-      npm init
-      npm install
-      bower init
-      bower install
-      gulp build
-      gulp serve
+      ``` $ npm init``` <br>
+      ``` $ npm install``` <br>
+      ``` $ bower init``` <br>
+      ``` $ bower install``` <br>
+      ``` $ gulp build``` <br>
+      ``` $ gulp serve``` <br>
 
 #Technologies Used:
 
