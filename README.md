@@ -17,26 +17,12 @@ If the user enters a username that doesn't exist (for example if they mashed a b
 * Git clone this repository
 
 * From terminal enter the following commands:
-    npm init
-    npm install
-    bower init
-    bower install
-    gulp build
-    gulp serve
-
-* From bash terminal, enter "apachectl start" to start PhpMyAdmin
-* In browser, type "localhost:8080/phpmyadmin"
-* If prompted, both your username and password are "root"
-
-* From PhpMyAdmin, import "shoes" and "shoes_test" databases included in php-shoestore-cr folder
-
-* From mysql shell in terminal, enter "USE shoes;" to enter database
-
-* From bash terminal, run "composer install" while in project root folder
-
-* From bash terminal, enter "php -S localhost:8000" while in the web folder
-
-* To view, type "localhost:8000" in browser
+      npm init
+      npm install
+      bower init
+      bower install
+      gulp build
+      gulp serve
 
 #Technologies Used:
 
