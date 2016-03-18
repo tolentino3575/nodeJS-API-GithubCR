@@ -4,13 +4,16 @@ exports.getRepos = function(userName){
 
   $.get('https://api.github.com/users/' + userName + '/repos?access_token=' + apiKey).then(function(response){
     // console.log(response);
+    if(userName === ){
+
+    };
     for(var i = 0; i < response.length; i++) {
       var name = response[i].name;
       var desc = response[i].description;
       var created = moment(response[i].created_at).format('MMMM Do YYYY, h:mm:ss:a');
       if(response[i].description === ""){
         var desc = "No description provided for this repository.";
-      }
+      };
       $('#repoInfo').append("<li>" + "Project name: " + name + "</li>" +
                             "<li>" + "Description: " + desc + "</li>" +
                             "<li>" + "Found under Github user: " + userName + "</li>" +
@@ -27,13 +30,13 @@ exports.getUserInfo = function(userName){
     console.log(response);
     var fullName = response.name;
     if(response.name === null){
-      var fullName = "Not provided";
+      var fullName = "Name not provided";
     }
     var followers = response.followers;
     var following = response.following;
     var email = response.email;
     if(response.email === null){
-      var email = "Not provided"
+      var email = "Email not provided"
     }
     var avatar = response.avatar_url;
     $('#userInfo').append("<li>" + "The name of the owner of this Github account is: " + fullName + "</li>" +
