@@ -1,15 +1,17 @@
 $slate : #008fb3;
-$beige : #e6dcd8;
+$beige : #E8EDE6;
 $blue : #5694a8;
+$purple : #391D42;
 
 .box {
+  border-radius: 8px;
   background: $slate;
   border: 3px solid black;
   padding: 40px 80px;
   .button {
-    font-weight: bold;
+    border-radius: 7px;
     text-align: center;
-    background: $beige;
+    background: white;
     color: $blue;
   }
 }
@@ -19,7 +21,8 @@ body {
 }
 
 .jumbotron {
-  background: $blue;
+  background: $purple;
+  color: white;
 }
 
 #repoInfo{
