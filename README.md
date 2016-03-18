@@ -16,7 +16,7 @@ If the user enters a username that doesn't exist (for example if they mashed a b
 
 * Git clone this repository
 
-* From terminal enter the following commands:
+* From terminal enter the following commands:<br>
       ``` $ npm init``` <br>
       ``` $ npm install``` <br>
       ``` $ bower init``` <br>
@@ -26,18 +26,24 @@ If the user enters a username that doesn't exist (for example if they mashed a b
 
 #Technologies Used:
 
-* Php
-* PhpMyAdmin
-* Apache
-* MySQL
-* PHPUnit
-* Silex
-* Twig
+* NodeJS
+* Moment.js
+* JQuery
+* Gulp
+* Gulp-Concat
+* Gulp-Util
+* Browserify
+* Browser-sync
+* JShint
+* Sass
+* Sourcemaps
+* Uglify
+* Bower
+* Vinyl-Source-Stream
 * Atom
 * Terminal
 * GitHub
 * Bootstrap
-* HTML
 
 #Legal
 
