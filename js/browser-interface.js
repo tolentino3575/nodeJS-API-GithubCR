@@ -1,5 +1,6 @@
-var getRepos = require('./../js/github.js').getRepos;
-var getUserInfo = require('./../js/github.js').getUserInfo;
+// var getRepos = require('./../js/github.js').getRepos;
+// var getUserInfo = require('./../js/github.js').getUserInfo;
+var gitHubModule = require('./../js/github.js');
 
 $(document).ready (function(){
   $('#github').submit(function(event){
@@ -7,7 +8,7 @@ $(document).ready (function(){
     $('#repoInfo').show();
     $('#userInfo').show();
     var userName = $('#userName').val();
-    getRepos(userName);
-    getUserInfo(userName);
+    gitHubModule.getRepos(userName);
+    gitHubModule.getUserInfo(userName);
   });
 });
