@@ -4,9 +4,9 @@ exports.getRepos = function(userName){
 
   $.get('https://api.github.com/users/' + userName + '/repos?access_token=' + apiKey).then(function(response){
     // console.log(response);
-    if(userName === ){
-
-    };
+    // if(userName === ){
+    //
+    // };
     for(var i = 0; i < response.length; i++) {
       var name = response[i].name;
       var desc = response[i].description;
